@@ -317,12 +317,6 @@ footer {
       padding-top: 50px;
 
     }
-    .main-container{
-
-      flex-direction: column;
-    }
-    ..gallery{
-      justify-content: center;
-      align-items: center;
-    }
+   
+    
 }
