@@ -300,5 +300,29 @@ footer {
 /* responsive */
 
 @media screen and (max-width: 576px) {
-  
+    .header-container{
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      
+    }
+    nav > ul{
+      flex-direction: column;
+      padding-top: 30px;
+      align-items: center;
+    }
+    .banner-title{
+      padding-top: 50px;
+
+    }
+    .main-container{
+
+      flex-direction: column;
+    }
+    ..gallery{
+      justify-content: center;
+      align-items: center;
+    }
 }
