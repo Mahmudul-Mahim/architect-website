@@ -61,7 +61,7 @@ li {
   background: #ff900e;
   border-radius: 8px;
   width: 180px;
-height: 64px;
+  height: 64px;
   border-style: none;
   color: #ffffff;
   font-weight: 600;
@@ -69,7 +69,236 @@ height: 64px;
   line-height: 23px;
   margin-bottom: 50px;
 }
-.banner-img{
-    margin-bottom: 45px;
-    width: 100%;
+.banner-img {
+  margin-bottom: 45px;
+  width: 100%;
+  height: auto;
+}
+/* main section styles */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.gallery-1,
+.gallery-2 {
+  display: flex;
+  gap: 24px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 84px;
+  margin-left: 301px;
+  margin-right: 301px;
+}
+.main-content {
+  margin-left: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 24px;
+}
+.grey {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+}
+.orange {
+  color: #ff900e;
+}
+.main-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 32px;
+}
+
+/* article styles */
+.article-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+}
+.article {
+  display: flex;
+  margin-top: 130px;
+  margin-left: 293px;
+  margin-right: 301px;
+  gap: 30px;
+}
+.article-header {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+  border: solid 5px #ff900e;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  padding-left: 21px;
+}
+.article-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.archiwomen {
+  width: 100%;
+  height: auto;
+}
+.article-cards {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  max-width: 586px;
+  height: auto;
+  padding: 30px;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+  padding-bottom: 10px;
+}
+.card-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.experience {
+  background-color: #ff900e;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+  color: #ffffff;
+  padding: 45px;
+  text-align: center;
+  margin-left: -20px;
+}
+.small-experience {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  
+}
+/* about us */
+.about {
+  margin-top: 130px;
+  margin-left: 301px;
+  margin-right: 301px;
+  margin-bottom: 180px;
+}
+.box {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  text-align: center;
+}
+.achivements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.box-content {
+  padding: 45px;
+}
+.icons {
+  padding-bottom: 10px;
+}
+.facts {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+.facts-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.score {
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 53px;
+  color: #424242;
+}
+.box-names {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #727272;
+}
+/* sponser styles */
+.sponser-content {
+  text-align: center;
+}
+.sponser {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.sponser-details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.sponser-logo {
+  display: flex;
+  justify-content: center;
+  gap: 155px;
+  margin-top: 50px;
+  margin-bottom: 130px;
+  filter: grayscale(100%);
+}
+.sponser-logo:hover {
+  filter: grayscale(0%);
+}
+
+/* footer styles */
+.footer-text {
+  background: #fff4e7;
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px 326px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #424242;
+}
+footer {
+  margin-left: 301px;
+  margin-right: 301px;
+  margin-bottom: 100px;
+}
+/* responsive */
+
+@media screen and (max-width: 576px) {
+  
 }
